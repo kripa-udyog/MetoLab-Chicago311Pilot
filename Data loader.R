@@ -9,6 +9,6 @@
 # datSanitation_Code_Complaints=read.csv("Sanitation_Code_Complaints.csv")
 # datStreet_Lights_All_Out=read.csv("Street_Lights_-_All_Out.csv")
 # datStreet_Lights_One_Out=read.csv("Street_Lights_-_One_Out.csv")
- datTree_Debris=read.csv("Tree_Debris.csv")
+ datTree_Debris=read.csv("Tree_Debris.csv", stringsAsFactors=F)
 # datTree_Trims=read.csv("Tree_Trims.csv")
 # datVacant_and_Abandoned_Buildings_Reported=read.csv("Vacant_and_Abandoned_Buildings_Reported.csv")
